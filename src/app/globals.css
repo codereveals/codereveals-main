@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primaryColor: #0a0d2d;
+  --secondaryColor: #2cee91;
+  --white: #ffffff;
+  --darkBlueColor: #343651;
+  --doplyColor: #85f5bf;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --secondaryColor: #0a0a0a;
+    --primaryColor: #ededed;
+  }
+}
+
+body {
+  color: var(--white);
+  background: var(--primaryColor);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.swiper-pagination-bullet {
+  height: 10px !important;
+  width: 10px !important;
+  background: #fff !important;
+  opacity: 0.5 !important;
+}
+.swiper-pagination-bullet-active {
+  background: var(--secondaryColor) !important;
+  opacity: 1 !important;
+}
+.swiper-scrollbar-drag {
+  background: transparent !important;
+}
+.swiper-pagination {
+  bottom: -1% !important;
+}
+.swiper {
+  padding-bottom: 36px !important;
+}
