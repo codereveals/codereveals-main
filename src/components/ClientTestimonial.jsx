@@ -11,7 +11,8 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import Image from "next/image";
-import { portfolioSlider } from "@/utils/data";
+import { clientTestimonial } from "@/utils/data";
+import Clientcard from "./Clientcard";
 
 const ClientTestimonial = () => {
   return (
@@ -20,22 +21,17 @@ const ClientTestimonial = () => {
         // install Swiper modules
         modules={[Navigation, Pagination, Scrollbar, A11y]}
         spaceBetween={40}
-        slidesPerView={2}
+        slidesPerView={3}
         pagination={{ clickable: true }}
         scrollbar={{ draggable: true }}
+        autoplay={true}
         onSwiper={(swiper) => console.log(swiper)}
         onSlideChange={() => console.log("slide change")}
       >
-        {portfolioSlider?.map((item) => {
+        {clientTestimonial?.map((item) => {
           return (
             <SwiperSlide key={item.id}>
-              <Image
-                src={item?.imageUrl}
-                width={600}
-                height={400}
-                alt={item?.title}
-                className="w-full rounded-lg"
-              />
+              <Clientcard props={item} />
             </SwiperSlide>
           );
         })}

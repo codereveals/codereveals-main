@@ -1,10 +1,12 @@
 import CallToAction from "@/components/CallToAction";
 import Card from "@/components/Card";
+import Clients from "@/components/Clients";
+import ClientTestimonial from "@/components/ClientTestimonial";
 import HeroBanner from "@/components/HeroBanner";
 import Highlight from "@/components/Highlight";
 import Innovative from "@/components/Innovative";
 import Silder from "@/components/Silder";
-import { companyData, portfolioSlider } from "@/utils/data"
+import { companyData, portfolioSlider, clientTestimonial } from "@/utils/data"
 
 
 export default function Home() {
@@ -57,6 +59,22 @@ export default function Home() {
       <section className="py-10">
         <div className="container">
           <Highlight />
+        </div>
+      </section>
+      <section className="py-10">
+        <div className="container">
+          <div className="text-center py-10">
+            <p className="text-sm text-[--secondaryColor] text-2 2xl:text-[20px] font-medium">Client Satisfactions</p>
+            <h2 className="font-bold text-[36px] leading-2 mt-2">Testimonials</h2>
+          </div>
+          <ClientTestimonial />
+        </div>
+      </section>
+
+      <section className="my-10">
+        <div className="container">
+
+          <Clients />
         </div>
       </section>
 
