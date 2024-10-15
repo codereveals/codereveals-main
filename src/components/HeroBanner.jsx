@@ -8,7 +8,7 @@ const HeroBanner = () => {
     <div className="min-h-screen relative">
       <div className="container">
         <div className="flex flex-col md:flex-row gap-6 items-center">
-          <div className="flex flex-col w-full md:w-[48%] justify-center items-center min-h-screen">
+          <div className="flex flex-col w-full md:pe-11 md:w-[48%] justify-center items-center pt-10 md:pt-0 md:min-h-screen">
             <div className="text-white">
               <h1 className="text-6xl mb-6">
                 Partnering for Success from{" "}
@@ -21,7 +21,7 @@ const HeroBanner = () => {
                 error laborum tempora voluptatem veritatis neque amet qui
                 nostrum nulla facilis?
               </p>
-              <div className="py-6">
+              <div className="py-6 text-center md:text-start">
                 <Button
                   title="Free Consultantion"
                   bgColor="#2CEE91"

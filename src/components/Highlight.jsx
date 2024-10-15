@@ -4,12 +4,12 @@ const Highlight = () => {
   return (
     <>
       <div className="flex flex-col lg:flex-row gap-5">
-        <div className="w-[59%] rounded-lg bg-[--darkBlueColor] p-8">
+        <div className="w-full md:w-[59%] rounded-lg bg-[--darkBlueColor] p-8">
           <div className="p-3">
             <p className="text-[--secondaryColor] font-semibold">
               Got a project in Mind?
             </p>
-            <h2 className="text-[80px] font-bold leading-[1.1] py-3">
+            <h2 className="text-[40px] md:text-[80px] font-bold leading-[1.1] py-3">
               Let’s Discuss <br /> The details
             </h2>
             <p className="text-sm mb-8">
@@ -24,7 +24,7 @@ const Highlight = () => {
             />
           </div>
         </div>
-        <div className="w-[40%] rounded-lg bg-[--doplyColor] p-8">
+        <div className="w-full md:w-[40%] rounded-lg bg-[--doplyColor] p-8">
           <div>
             <div className="w-[120px] h-[120px] rounded-full bg-[--primaryColor] "></div>
             <h2 className="py-4 text-[--primaryColor] font-bold text-lg">

@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="py-10 lg:pt-14 lg:pb-10 border-b-[15px] border-[--secondaryColor] relative overflow-x-hidden">
       <div className="container">
-        <div className="grid grid-cols-4 gap-10 py-7">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 py-7">
           <div className=" flex gap-3 flex-col">
             <Image
               src="/assets/images/code-reveals-logo.svg"

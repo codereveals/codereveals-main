@@ -20,9 +20,9 @@ export default function Home() {
         <div className="container">
           <div className="text-center">
             <p className="text-sm text-[--secondaryColor] 2xl:text-[28px] font-medium">Our Value</p>
-            <h2 className="font-bold text-[36px] leading-2 my-8">Transforming Information <br /> into Actionable Insights</h2>
+            <h2 className="font-bold text-xl md:text-[36px] leading-2 my-3 md:my-8">Transforming Information <br /> into Actionable Insights</h2>
 
-            <div className="grid grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
 
               {companyData.map((card, index) => (
                 <Card key={index} props={card} />

@@ -5,9 +5,9 @@ import Link from "next/link";
 const Innovative = () => {
   return (
     <div className="py-10 md:py-14">
-      <div className="grid grid-cols-3 gap-5">
-        <div className="bg-[--darkBlueColor] py-10 px-12 rounded-lg col-span-2">
-          <h2 className="text-[--secondaryColor] text-[80px] font-black leading-tight mb-10">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+        <div className="bg-[--darkBlueColor] py-10 px-12 rounded-lg col-span-1 md:col-span-2">
+          <h2 className="text-[--secondaryColor] text-[40px] md:text-[80px] font-black leading-tight mb-10">
             Innovative Digital Agency
           </h2>
           <Button

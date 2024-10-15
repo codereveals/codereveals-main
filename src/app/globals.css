@@ -58,3 +58,7 @@ footer::after {
   top: -177px;
   right: -17px;
 }
+
+.is_active {
+  color: var(--secondaryColor);
+}
