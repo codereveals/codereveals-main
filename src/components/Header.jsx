@@ -40,7 +40,13 @@ const Header = () => {
             }`}
           >
             <Menu />
-            <Button title="Free Consultation" bgColor="#2CEE91" />
+            <Button
+              title="Free Consultant"
+              bgColor="#2CEE91"
+              hoverText="#343651"
+              icon="#fff"
+              btnLink="/contact-us"
+            />
           </div>
         </div>
       </div>

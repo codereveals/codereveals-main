@@ -8,15 +8,15 @@ const Menu = () => {
     },
     {
       title: "Services",
-      path: "/",
+      path: "/services",
     },
     {
       title: "About Us",
-      path: "/",
+      path: "/about-us",
     },
     {
       title: "Contact Us",
-      path: "/",
+      path: "/contact-us",
     },
   ];
 

@@ -18,13 +18,13 @@ const DigitalMarketingPage = () => {
               <h3 className=" text-sm text-[--secondaryColor]">
                 /What You’ll Get
               </h3>
-              <h2 className="text-5xl font-bold my-3 ">
+              <h2 className="text-2xl lg:text-5xl font-bold my-3 ">
                 Our Comprehensive <br /> Digital Marketing Services
               </h2>
             </div>
             <div className="flex flex-col">
-              <div className="bg-[--darkBlueColor] p-6 rounded-lg flex gap-5 mb-8">
-                <div className="w-[38%]">
+              <div className="bg-[--darkBlueColor] p-6 rounded-lg flex flex-col lg:flex-row gap-5 mb-8">
+                <div className="w-full lg:w-[38%]">
                   <Image
                     src="/assets/images/ic-seo.jpg"
                     width={300}
@@ -33,7 +33,7 @@ const DigitalMarketingPage = () => {
                     className="w-full rounded-lg"
                   />
                 </div>
-                <div className="w-[60%]">
+                <div className="w-full lg:w-[60%]">
                   <h2 className="text-2xl text-white mb-4 font-bold">
                     Search Engine Optimization
                   </h2>
@@ -46,8 +46,8 @@ const DigitalMarketingPage = () => {
                   </p>
                 </div>
               </div>
-              <div className="bg-[--darkBlueColor] p-6 rounded-lg flex gap-5 mb-8">
-                <div className="w-[38%]">
+              <div className="bg-[--darkBlueColor] p-6 rounded-lg flex-col lg:flex-row flex gap-5 mb-8">
+                <div className="w-full lg:w-[38%]">
                   <Image
                     src="/assets/images/ic-smo.jpg"
                     width={300}
@@ -56,7 +56,7 @@ const DigitalMarketingPage = () => {
                     className="w-full rounded-lg"
                   />
                 </div>
-                <div className="w-[60%]">
+                <div className="w-full lg:w-[60%]">
                   <h2 className="text-2xl text-white mb-4 font-bold">
                     Social Media Marketing
                   </h2>
@@ -69,8 +69,8 @@ const DigitalMarketingPage = () => {
                   </p>
                 </div>
               </div>
-              <div className="bg-[--darkBlueColor] p-6 rounded-lg flex gap-5 mb-8">
-                <div className="w-[38%]">
+              <div className="bg-[--darkBlueColor] p-6 rounded-lg flex-col lg:flex-row flex gap-5 mb-8">
+                <div className="w-full lg:w-[38%]">
                   <Image
                     src="/assets/images/ic-brand-marketing.jpg"
                     width={300}
@@ -79,7 +79,7 @@ const DigitalMarketingPage = () => {
                     className="w-full rounded-lg"
                   />
                 </div>
-                <div className="w-[60%]">
+                <div className="w-ful lg:w-[60%]">
                   <h2 className="text-2xl text-white mb-4 font-bold">
                     Brand Marketing
                   </h2>
@@ -92,8 +92,8 @@ const DigitalMarketingPage = () => {
                   </p>
                 </div>
               </div>
-              <div className="bg-[--darkBlueColor] p-6 rounded-lg flex gap-5 mb-8">
-                <div className="w-[38%]">
+              <div className="bg-[--darkBlueColor] p-6 rounded-lg flex-col lg:flex-row flex gap-5 mb-8">
+                <div className="w-full lg:w-[38%]">
                   <Image
                     src="/assets/images/ic-ads-marketing.jpg"
                     width={300}
@@ -102,7 +102,7 @@ const DigitalMarketingPage = () => {
                     className="w-full rounded-lg"
                   />
                 </div>
-                <div className="w-[60%]">
+                <div className="w-full lg:w-[60%]">
                   <h2 className="text-2xl text-white mb-4 font-bold">
                     Ads Marketing
                   </h2>

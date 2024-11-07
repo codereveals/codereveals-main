@@ -1,3 +1,4 @@
+import Button from "@/components/Button";
 import Image from "next/image";
 
 const GlobalNotFound = () => {
@@ -20,16 +21,24 @@ const GlobalNotFound = () => {
               Something`s missing.
             </p>
             <p className="mb-4 text-lg font-light text-gray-500 dark:text-gray-400">
-              Sorry, we can not find that page. You will find lots to explore on
-              the home page.{" "}
+              Sorry, we can not find that page. <br /> You will find lots to
+              explore on the home page.{" "}
             </p>
-            <a
-              href="/"
-              className=" bg-gradient-to-r from-purple-900 to-pink-800   relative h-auto inline-flex items-center justify-center rounded-full transition-colors text-sm sm:text-base font-medium py-3 px-4 sm:py-3.5 sm:px-6  ttnc-ButtonPrimary disabled:bg-opacity-90 bg-slate-900 dark:bg-slate-100 hover:bg-slate-800 text-slate-50 dark:text-slate-800 shadow-xl  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-6000 dark:focus:ring-offset-0"
-            >
-              Back to Homepage
-            </a>
+            <Button
+              title="Go back to Home"
+              bgColor="#2CEE91"
+              hoverText="#343651"
+              icon="#fff"
+              btnLink="/"
+            />
           </div>
+          <Image
+            src="/assets/images/circle-img.svg"
+            width={300}
+            height={300}
+            alt="Circle Image"
+            className="absolute top-0 right-0"
+          />
         </div>
       </section>
     </div>

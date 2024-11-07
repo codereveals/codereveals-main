@@ -64,7 +64,7 @@ const Footer = () => {
             <ul className="flex gap-2 flex-col">
               <li>
                 <Link
-                  href="/"
+                  href="/about-us"
                   className="text-sm text-white hover:text-[--secondaryColor]"
                 >
                   About Us
@@ -72,7 +72,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/"
+                  href="/contact-us"
                   className="text-sm text-white hover:text-[--secondaryColor]"
                 >
                   Contact Us
@@ -103,36 +103,40 @@ const Footer = () => {
 
             <ul className="flex gap-2 flex-col">
               <li>
-                <Link
-                  href="/"
+                <a
+                  href="https://www.facebook.com/codereveals"
                   className="text-sm text-white hover:text-[--secondaryColor]"
+                  target="_blank"
                 >
                   Facebook
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
-                  href="/"
+                <a
+                  href="https://www.instagram.com/codereveals/"
                   className="text-sm text-white hover:text-[--secondaryColor]"
+                  target="_blank"
                 >
                   Instagram
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
-                  href="/"
+                <a
+                  href="https://www.linkedin.com/company/codereveals"
                   className="text-sm text-white hover:text-[--secondaryColor]"
+                  target="_blank"
                 >
                   Linkedin
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
-                  href="/"
+                <a
+                  href="https://www.youtube.com/@codereveals"
                   className="text-sm text-white hover:text-[--secondaryColor]"
+                  target="_blank"
                 >
                   Youtube
-                </Link>
+                </a>
               </li>
             </ul>
           </div>

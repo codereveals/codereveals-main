@@ -19,13 +19,13 @@ const UiDevelopmentPage = () => {
               <h3 className=" text-sm text-[--secondaryColor]">
                 /What You’ll Get
               </h3>
-              <h2 className="text-5xl font-bold my-3 ">
+              <h2 className="lg:text-5xl text-2xl font-bold my-3 ">
                 Our Comprehensive <br /> UI/UX Services
               </h2>
             </div>
             <div className="flex flex-col">
-              <div className="bg-[--darkBlueColor] p-6 rounded-lg flex gap-5 mb-8">
-                <div className="w-[38%]">
+              <div className="bg-[--darkBlueColor] p-6 rounded-lg flex flex-col lg:flex-row gap-5 mb-8">
+                <div className="w-full lg:w-[38%]">
                   <Image
                     src="/assets/images/ic-landing-page.jpg"
                     width={300}
@@ -34,7 +34,7 @@ const UiDevelopmentPage = () => {
                     className="w-full rounded-lg"
                   />
                 </div>
-                <div className="w-[60%]">
+                <div className="w-full lg:w-[60%]">
                   <h2 className="text-2xl text-white mb-4 font-bold">
                     Landing Page
                   </h2>
@@ -47,8 +47,8 @@ const UiDevelopmentPage = () => {
                   </p>
                 </div>
               </div>
-              <div className="bg-[--darkBlueColor] p-6 rounded-lg flex gap-5 mb-8">
-                <div className="w-[38%]">
+              <div className="bg-[--darkBlueColor] p-6 rounded-lg flex flex-col lg:flex-row gap-5 mb-8">
+                <div className="w-full lg:w-[38%]">
                   <Image
                     src="/assets/images/ic-logo-design.jpg"
                     width={300}
@@ -57,7 +57,7 @@ const UiDevelopmentPage = () => {
                     className="w-full rounded-lg"
                   />
                 </div>
-                <div className="w-[60%]">
+                <div className="w-full lg:w-[60%]">
                   <h2 className="text-2xl text-white mb-4 font-bold">
                     Logo Design
                   </h2>
@@ -70,8 +70,8 @@ const UiDevelopmentPage = () => {
                   </p>
                 </div>
               </div>
-              <div className="bg-[--darkBlueColor] p-6 rounded-lg flex gap-5 mb-8">
-                <div className="w-[38%]">
+              <div className="bg-[--darkBlueColor] p-6 rounded-lg flex-col lg:flex-row flex gap-5 mb-8">
+                <div className="w-full lg:w-[38%]">
                   <Image
                     src="/assets/images/ic-sm-post.jpg"
                     width={300}
@@ -80,7 +80,7 @@ const UiDevelopmentPage = () => {
                     className="w-full rounded-lg"
                   />
                 </div>
-                <div className="w-[60%]">
+                <div className="w-full lg:w-[60%]">
                   <h2 className="text-2xl text-white mb-4 font-bold">
                     Social Media Design
                   </h2>
@@ -93,8 +93,8 @@ const UiDevelopmentPage = () => {
                   </p>
                 </div>
               </div>
-              <div className="bg-[--darkBlueColor] p-6 rounded-lg flex gap-5 mb-8">
-                <div className="w-[38%]">
+              <div className="bg-[--darkBlueColor] p-6 rounded-lg flex flex-col lg:flex-row gap-5 mb-8">
+                <div className="w-full lg:w-[38%]">
                   <Image
                     src="/assets/images/ic-banner-post.jpg"
                     width={300}
@@ -103,7 +103,7 @@ const UiDevelopmentPage = () => {
                     className="w-full rounded-lg"
                   />
                 </div>
-                <div className="w-[60%]">
+                <div className="w-full lg:w-[60%]">
                   <h2 className="text-2xl text-white mb-4 font-bold">
                     Print Meida Design
                   </h2>

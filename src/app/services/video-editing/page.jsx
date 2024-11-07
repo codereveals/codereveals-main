@@ -18,13 +18,13 @@ const VideoEditingPage = () => {
               <h3 className=" text-sm text-[--secondaryColor]">
                 /What You’ll Get
               </h3>
-              <h2 className="text-5xl font-bold my-3 ">
+              <h2 className="text-2xl lg:text-5xl font-bold my-3 ">
                 Our Comprehensive <br /> Video Editing Services
               </h2>
             </div>
             <div className="flex flex-col">
-              <div className="bg-[--darkBlueColor] p-6 rounded-lg flex gap-5 mb-8">
-                <div className="w-[38%]">
+              <div className="bg-[--darkBlueColor] p-6 rounded-lg flex-col lg:flex-row flex gap-5 mb-8">
+                <div className="w-fulll lg:w-[38%]">
                   <Image
                     src="/assets/images/ic-youtube-editing.jpg"
                     width={300}
@@ -33,7 +33,7 @@ const VideoEditingPage = () => {
                     className="w-full rounded-lg"
                   />
                 </div>
-                <div className="w-[60%]">
+                <div className="w-full lg:w-[60%]">
                   <h2 className="text-2xl text-white mb-4 font-bold">
                     Youtube Video Editing
                   </h2>
@@ -46,8 +46,8 @@ const VideoEditingPage = () => {
                   </p>
                 </div>
               </div>
-              <div className="bg-[--darkBlueColor] p-6 rounded-lg flex gap-5 mb-8">
-                <div className="w-[38%]">
+              <div className="bg-[--darkBlueColor] p-6 rounded-lg flex flex-col lg:flex-row gap-5 mb-8">
+                <div className="w-full lg:w-[38%]">
                   <Image
                     src="/assets/images/ic-sm-editing.jpg"
                     width={300}
@@ -56,7 +56,7 @@ const VideoEditingPage = () => {
                     className="w-full rounded-lg"
                   />
                 </div>
-                <div className="w-[60%]">
+                <div className="w-full lg:w-[60%]">
                   <h2 className="text-2xl text-white mb-4 font-bold">
                     Social Media Video
                   </h2>
