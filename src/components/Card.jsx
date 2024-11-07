@@ -3,7 +3,7 @@ import React from "react";
 
 const Card = ({ props }) => {
   return (
-    <div className="bg-[--darkBlueColor] rounded-xl w-full p-8 flex flex-col hover:bg-slate-600 cursor-pointer transition-all">
+    <div className="bg-[--darkBlueColor] rounded-xl w-full p-5 lg:p-8 flex flex-col hover:bg-slate-600 cursor-pointer transition-all">
       <div className="py-2 text-right self-end">
         <Image
           src={props?.icon}

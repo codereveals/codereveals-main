@@ -6,8 +6,8 @@ const Innovative = () => {
   return (
     <div className="py-10 md:py-14">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-        <div className="bg-[--darkBlueColor] py-10 px-12 rounded-lg col-span-1 md:col-span-2">
-          <h2 className="text-[--secondaryColor] text-[40px] md:text-[80px] font-black leading-tight mb-10">
+        <div className="bg-[--darkBlueColor] px-6 py-6 lg:py-10 lg:px-12 rounded-lg col-span-1 md:col-span-2">
+          <h2 className="text-[--secondaryColor] text-[30px] md:text-[80px] font-black leading-tight mb-10">
             Innovative Digital Agency
           </h2>
           <Button
@@ -17,7 +17,7 @@ const Innovative = () => {
             icon="#fff"
           />
         </div>
-        <div className="bg-[--darkBlueColor] py-10 px-12 rounded-lg hover:bg-slate-800 transition-all hover:translate-x-3 hover:skew-y-2">
+        <div className="bg-[--darkBlueColor] px-6 py-6 lg:py-10 lg:px-12 rounded-lg hover:bg-slate-800 transition-all hover:translate-x-3 hover:skew-y-2">
           <p className="text-[--secondaryColor] font-bold text-[30px]">01</p>
           <h2 className="text-[35px] text-white font-bold"> UI/UX Design</h2>
           <ul className="mt-7">
@@ -38,7 +38,7 @@ const Innovative = () => {
             </li>
           </ul>
         </div>
-        <div className="bg-[--darkBlueColor] py-10 px-12 rounded-lg hover:bg-slate-800 transition-all hover:translate-x-3 hover:skew-y-2">
+        <div className="bg-[--darkBlueColor] px-6 py-6 lg:py-10 lg:px-12 rounded-lg hover:bg-slate-800 transition-all hover:translate-x-3 hover:skew-y-2">
           <p className="text-[--secondaryColor] font-bold text-[30px]">02</p>
           <h2 className="text-[35px] text-white font-bold"> Web Development</h2>
           <ul className="mt-7">
@@ -59,7 +59,7 @@ const Innovative = () => {
             </li>
           </ul>
         </div>
-        <div className="bg-[--darkBlueColor] py-10 px-12 rounded-lg hover:bg-slate-800 transition-all hover:translate-x-3 hover:skew-y-2">
+        <div className="bg-[--darkBlueColor] px-6 py-6 lg:py-10 lg:px-12 rounded-lg hover:bg-slate-800 transition-all hover:translate-x-3 hover:skew-y-2">
           <p className="text-[--secondaryColor] font-bold text-[30px]">03</p>
           <h2 className="text-[35px] text-white font-bold">
             {" "}
@@ -80,7 +80,7 @@ const Innovative = () => {
             </li>
           </ul>
         </div>
-        <div className="bg-[--darkBlueColor] py-10 px-12 rounded-lg hover:bg-slate-800 transition-all hover:translate-x-3 hover:skew-y-2">
+        <div className="bg-[--darkBlueColor] px-6 py-6 lg:py-10 lg:px-12 rounded-lg hover:bg-slate-800 transition-all hover:translate-x-3 hover:skew-y-2">
           <p className="text-[--secondaryColor] font-bold text-[30px]">04</p>
           <h2 className="text-[35px] text-white font-bold"> Video Editing</h2>
           <ul className="mt-7">

@@ -20,8 +20,13 @@ const Silder = () => {
       <Swiper
         // install Swiper modules
         modules={[Navigation, Pagination, Scrollbar, A11y]}
-        spaceBetween={40}
+        spaceBetween={20}
         slidesPerView={2}
+        loop={true}
+        autoplay={{
+          delay: 500,
+          disableOnInteraction: false,
+        }}
         pagination={{ clickable: true }}
         scrollbar={{ draggable: true }}
         onSwiper={(swiper) => console.log(swiper)}

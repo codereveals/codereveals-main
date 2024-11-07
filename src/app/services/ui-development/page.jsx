@@ -27,7 +27,7 @@ const UiDevelopmentPage = () => {
               <div className="bg-[--darkBlueColor] p-6 rounded-lg flex gap-5 mb-8">
                 <div className="w-[38%]">
                   <Image
-                    src="/assets/images/mockup.webp"
+                    src="/assets/images/ic-landing-page.jpg"
                     width={300}
                     height={200}
                     alt="UI dev"
@@ -50,7 +50,7 @@ const UiDevelopmentPage = () => {
               <div className="bg-[--darkBlueColor] p-6 rounded-lg flex gap-5 mb-8">
                 <div className="w-[38%]">
                   <Image
-                    src="/assets/images/mockup.webp"
+                    src="/assets/images/ic-logo-design.jpg"
                     width={300}
                     height={200}
                     alt="UI dev"
@@ -73,7 +73,7 @@ const UiDevelopmentPage = () => {
               <div className="bg-[--darkBlueColor] p-6 rounded-lg flex gap-5 mb-8">
                 <div className="w-[38%]">
                   <Image
-                    src="/assets/images/mockup.webp"
+                    src="/assets/images/ic-sm-post.jpg"
                     width={300}
                     height={200}
                     alt="UI dev"
@@ -96,7 +96,7 @@ const UiDevelopmentPage = () => {
               <div className="bg-[--darkBlueColor] p-6 rounded-lg flex gap-5 mb-8">
                 <div className="w-[38%]">
                   <Image
-                    src="/assets/images/mockup.webp"
+                    src="/assets/images/ic-banner-post.jpg"
                     width={300}
                     height={200}
                     alt="UI dev"

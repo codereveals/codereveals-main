@@ -26,7 +26,7 @@ const DigitalMarketingPage = () => {
               <div className="bg-[--darkBlueColor] p-6 rounded-lg flex gap-5 mb-8">
                 <div className="w-[38%]">
                   <Image
-                    src="/assets/images/digital-markeing.webp"
+                    src="/assets/images/ic-seo.jpg"
                     width={300}
                     height={200}
                     alt="UI dev"
@@ -49,7 +49,7 @@ const DigitalMarketingPage = () => {
               <div className="bg-[--darkBlueColor] p-6 rounded-lg flex gap-5 mb-8">
                 <div className="w-[38%]">
                   <Image
-                    src="/assets/images/digital-markeing.webp"
+                    src="/assets/images/ic-smo.jpg"
                     width={300}
                     height={200}
                     alt="UI dev"
@@ -72,7 +72,7 @@ const DigitalMarketingPage = () => {
               <div className="bg-[--darkBlueColor] p-6 rounded-lg flex gap-5 mb-8">
                 <div className="w-[38%]">
                   <Image
-                    src="/assets/images/digital-markeing.webp"
+                    src="/assets/images/ic-brand-marketing.jpg"
                     width={300}
                     height={200}
                     alt="UI dev"
@@ -95,7 +95,7 @@ const DigitalMarketingPage = () => {
               <div className="bg-[--darkBlueColor] p-6 rounded-lg flex gap-5 mb-8">
                 <div className="w-[38%]">
                   <Image
-                    src="/assets/images/digital-markeing.webp"
+                    src="/assets/images/ic-ads-marketing.jpg"
                     width={300}
                     height={200}
                     alt="UI dev"

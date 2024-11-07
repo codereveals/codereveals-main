@@ -10,7 +10,7 @@ const HeroBanner = () => {
         <div className="flex flex-col md:flex-row gap-6 items-center">
           <div className="flex flex-col w-full md:pe-11 md:w-[48%] justify-center items-center pt-10 md:pt-0 md:min-h-screen">
             <div className="text-white">
-              <h1 className="text-6xl mb-6">
+              <h1 className="lg:text-6xl text-2xl  mb-6">
                 Partnering for Success from{" "}
                 <span className="font-extrabold text-[--secondaryColor]  ">
                   Concept to Reality.
@@ -47,7 +47,7 @@ const HeroBanner = () => {
                 className="rounded-md w-full"
               />
               <div className="bg-slate-800 rounded-md p-8 mt-3">
-                <h2 className="text-4xl">
+                <h2 className="text-xl lg:text-4xl">
                   <span className="text-[--secondaryColor] font-bold">
                     UI/UX{" "}
                   </span>{" "}

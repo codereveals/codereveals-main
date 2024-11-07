@@ -5,8 +5,8 @@ import Image from "next/image";
 const CallToAction = () => {
   return (
     <div className="my-14 md:my-20">
-      <div className="max-w-4xl bg-[--doplyColor] relative rounded-xl py-10 mx-auto overflow-hidden hover:bg-[--secondaryColor] transition-all">
-        <h2 className="my-6 text-[--primaryColor] text-[34px] font-bold">
+      <div className="max-w-4xl bg-[--doplyColor] relative rounded-xl py-10 px-3 mx-auto overflow-hidden hover:bg-[--secondaryColor] transition-all">
+        <h2 className="my-6 text-[--primaryColor] text-3xl lg:text-[34px] font-bold">
           Have a Project? <br /> Let’s Talk and Grow Your Business
         </h2>
 
@@ -19,7 +19,7 @@ const CallToAction = () => {
           width={160}
           height={160}
           alt="Ellipse"
-          className="absolute -left-12 -bottom-12"
+          className="absolute -left-6 lg:-left-12 lg:-bottom-12 -bottom-6 w-20 lg:w-[160px]"
         />
       </div>
     </div>

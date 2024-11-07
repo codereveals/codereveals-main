@@ -45,9 +45,9 @@ export default function Home() {
 
         </div>
       </section>
-      <section className="mt-14">
+      <section className="mt-3 lg:mt-14">
         <div className="container">
-          <div className="text-center py-10">
+          <div className="text-center py-3 lg:py-10">
             <p className="text-sm text-[--secondaryColor] text-2 2xl:text-[20px] font-medium">Portfolio</p>
             <h2 className="font-bold text-[36px] leading-2 mt-2">Recent Product</h2>
           </div>

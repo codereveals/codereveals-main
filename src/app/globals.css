@@ -12,8 +12,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --secondaryColor: #0a0a0a;
-    --primaryColor: #ededed;
+    --secondaryColor: #66e691;
+    --primaryColor: #1b1b1b;
   }
 }
 
@@ -61,4 +61,15 @@ footer::after {
 
 .is_active {
   color: var(--secondaryColor);
+}
+
+@media (max-width: 767px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  footer::after {
+    width: 90px;
+    top: 0;
+  }
 }

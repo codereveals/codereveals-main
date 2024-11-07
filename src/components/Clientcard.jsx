@@ -14,7 +14,7 @@ const Clientcard = ({ props }) => {
         />
       </div>
 
-      <h2 className="text-[--secondaryColor] my-5 font-semibold">
+      <h2 className="text-[--secondaryColor] my-0 lg:my-5 font-semibold">
         {props.title}
       </h2>
       <p className="text-sm my-4">{props.desc}</p>

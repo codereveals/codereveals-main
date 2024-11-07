@@ -6,7 +6,7 @@ const Button = ({ title, bgColor, icon, textColor }) => {
   return (
     <Link
       href=""
-      className={`gap-2 mr-4 transition ease-in-out delay-150 rounded-full text-[${textColor}] ps-6 pe-4 py-2  inline-block group hover:opacity- hover:scale-105`}
+      className={`gap-2 mr-4 mb-2 transition ease-in-out delay-150 rounded-full text-[${textColor}] ps-6 pe-4 py-2  inline-block group hover:opacity- hover:scale-105`}
       style={{ backgroundColor: bgColor }}
     >
       <span className="flex items-center gap-2 ">

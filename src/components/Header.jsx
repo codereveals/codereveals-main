@@ -35,7 +35,8 @@ const Header = () => {
 
           <div
             className={`flex gap-8 flex-col fixed md:static transition-all delay-75 -right-[100%] top-0 md:flex-row items-center ${
-              open && "right-20 p-8 top-10 bg-[#343651] rounded-md  z-20 h-full"
+              open &&
+              "right-20 p-4 lg:p-8 top-10 bg-[#343651] rounded-md  z-20 h-full"
             }`}
           >
             <Menu />

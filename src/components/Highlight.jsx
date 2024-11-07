@@ -5,7 +5,7 @@ const Highlight = () => {
     <>
       <div className="flex flex-col lg:flex-row gap-5">
         <div className="w-full md:w-[59%] rounded-lg bg-[--darkBlueColor] p-8">
-          <div className="p-3">
+          <div className="p-0 lg:p-3">
             <p className="text-[--secondaryColor] font-semibold">
               Got a project in Mind?
             </p>
