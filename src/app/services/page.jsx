@@ -26,7 +26,7 @@ const ServicesPage = () => {
             <div className="bg-[--darkBlueColor] p-6 rounded-lg flex flex-col lg:flex-row gap-5 ">
               <div className="w-full lg:w-[38%]">
                 <Image
-                  src="/assets/images/ic-youtube-editing.jpg"
+                  src="/assets/images/ui-development.jpg"
                   width={300}
                   height={200}
                   alt="UI dev"
@@ -53,7 +53,7 @@ const ServicesPage = () => {
             <div className="bg-[--darkBlueColor] p-6 rounded-lg flex flex-col lg:flex-row gap-5 ">
               <div className="w-full lg:w-[38%]">
                 <Image
-                  src="/assets/images/ic-sm-editing.jpg"
+                  src="/assets/images/web-development.jpg"
                   width={300}
                   height={200}
                   alt="UI dev"
@@ -79,7 +79,7 @@ const ServicesPage = () => {
             <div className="bg-[--darkBlueColor] p-6 rounded-lg flex flex-col lg:flex-row gap-5 ">
               <div className="w-full lg:w-[38%]">
                 <Image
-                  src="/assets/images/ic-sm-editing.jpg"
+                  src="/assets/images/digital-marketing.jpg"
                   width={300}
                   height={200}
                   alt="UI dev"
@@ -105,7 +105,7 @@ const ServicesPage = () => {
             <div className="bg-[--darkBlueColor] p-6 rounded-lg flex flex-col lg:flex-row gap-5 8">
               <div className="w-full lg:w-[38%]">
                 <Image
-                  src="/assets/images/ic-sm-editing.jpg"
+                  src="/assets/images/video-editing.jpg"
                   width={300}
                   height={200}
                   alt="UI dev"
@@ -131,7 +131,7 @@ const ServicesPage = () => {
             <div className="bg-[--darkBlueColor] p-6 rounded-lg flex flex-col lg:flex-row gap-5 8">
               <div className="w-full lg:w-[38%]">
                 <Image
-                  src="/assets/images/ic-sm-editing.jpg"
+                  src="/assets/images/mobile-app-development.jpg"
                   width={300}
                   height={200}
                   alt="UI dev"

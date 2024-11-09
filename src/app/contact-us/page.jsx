@@ -1,18 +1,17 @@
 import Button from "@/components/Button";
+import HeroBreadcrumb from "@/components/HeroBreadcrumb";
 import React from "react";
 
 const ContactUsPage = () => {
   return (
     <>
       <section className="container">
-        <div className="w-full">
-          <h3 className="text-center">
-            Home / <span className="text-[--secondaryColor]">Contact-us</span>
-          </h3>
-          <h2 className="text-3xl lg:text-5xl font-bold text-center">
-            Coffee With CodeReveals
-          </h2>
-        </div>
+        <HeroBreadcrumb
+          title="Contact Us"
+          subTitle="May I help you?"
+          desc="Introduce the digital marketing service company and its mission to help businesses grow and thrive in the digital landscape. Highlight the company's experience, expertise, and dedication to providing top-notch digital marketing solutions."
+        />
+
         <div className="flex flex-col lg:flex-row gap-5 py-10 lg:py-14">
           <div className="w-full md:w-[59%] rounded-lg bg-[--darkBlueColor] p-8">
             <div className="p-3">

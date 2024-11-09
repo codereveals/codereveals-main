@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-const HeroBreadcrumb = ({ title, desc }) => {
+const HeroBreadcrumb = ({ title, desc, subTitle }) => {
   return (
     <>
       <div className="w-full relative rounded-xl h-auto lg:h-[500px] flex flex-col justify-end items-start bg-[--darkBlueColor] px-4 lg:px-11">
@@ -13,7 +13,9 @@ const HeroBreadcrumb = ({ title, desc }) => {
           className="absolute top-5 right-5 invisible lg:visible"
         />
         <div className="flex flex-col my-8 lg:mb-24 max-w-3xl">
-          <h3 className=" text-md text-[--secondaryColor]">/What we do?</h3>
+          <h3 className=" text-md text-[--secondaryColor]">
+            /{subTitle || "What we do?"}
+          </h3>
           <h2 className="text-xl lg:text-5xl text-white font-bold my-4">
             {title}
           </h2>

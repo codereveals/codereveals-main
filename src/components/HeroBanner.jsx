@@ -16,10 +16,12 @@ const HeroBanner = () => {
                   Concept to Reality.
                 </span>
               </h1>
-              <p className="mb-4">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-                error laborum tempora voluptatem veritatis neque amet qui
-                nostrum nulla facilis?
+              <p className="mb-4 text-slate-200">
+                We believe in change! Our passion is using technology and
+                innovation to drive it. We assist businesses and individuals in
+                embracing and implementing digital transformation. Our goal is
+                to enhance lives and boost businesses with our forward-thinking
+                tech solutions.
               </p>
               <div className="py-6 text-center md:text-start">
                 <Button

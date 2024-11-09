@@ -63,6 +63,24 @@ footer::after {
   color: var(--secondaryColor);
 }
 
+/* Blog Content  */
+.blogContent-wrapper {
+  padding: 20px 0;
+}
+
+.blogContent-wrapper h2 {
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  color: var(--secondaryColor);
+}
+.blogContent-wrapper p {
+  font-size: 18px;
+
+  margin-bottom: 15px;
+}
+
 @media (max-width: 767px) {
   .container {
     padding-left: 1rem;
