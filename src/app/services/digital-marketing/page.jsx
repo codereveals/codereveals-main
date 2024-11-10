@@ -39,11 +39,10 @@ const DigitalMarketingPage = () => {
                     Search Engine Optimization
                   </h2>
                   <p className="text-sm text-white">
-                    Mockup design is the process of creating visual
-                    representations or prototypes of a digital product, such as
-                    a website, mobile app, or software interface, to illustrate
-                    its appearance, layout, and functionality before it is
-                    developed.
+                    Optimizing website content, meta tags, and HTML structure to
+                    improve search engine rankings and user experience. Building
+                    high-quality backlinks and managing brand mentions to boost
+                    your website`s authority and visibility.
                   </p>
                 </div>
               </div>
@@ -62,11 +61,11 @@ const DigitalMarketingPage = () => {
                     Social Media Marketing
                   </h2>
                   <p className="text-sm text-white">
-                    Mockup design is the process of creating visual
-                    representations or prototypes of a digital product, such as
-                    a website, mobile app, or software interface, to illustrate
-                    its appearance, layout, and functionality before it is
-                    developed.
+                    Developing a customized social media plan to enhance brand
+                    awareness and foster audience engagement across platforms.
+                    Creating engaging posts, stories, and videos tailored for
+                    different social media platforms to keep your audience
+                    active and connected.
                   </p>
                 </div>
               </div>
@@ -85,11 +84,11 @@ const DigitalMarketingPage = () => {
                     Brand Marketing
                   </h2>
                   <p className="text-sm text-white">
-                    Mockup design is the process of creating visual
-                    representations or prototypes of a digital product, such as
-                    a website, mobile app, or software interface, to illustrate
-                    its appearance, layout, and functionality before it is
-                    developed.
+                    Crafting a unique brand identity and positioning strategy
+                    that resonates with your target audience and differentiates
+                    you from competitors. Developing compelling brand narratives
+                    and marketing campaigns that connect emotionally with
+                    customers and build long-term loyalty.
                   </p>
                 </div>
               </div>
@@ -108,11 +107,11 @@ const DigitalMarketingPage = () => {
                     Ads Marketing
                   </h2>
                   <p className="text-sm text-white">
-                    Mockup design is the process of creating visual
-                    representations or prototypes of a digital product, such as
-                    a website, mobile app, or software interface, to illustrate
-                    its appearance, layout, and functionality before it is
-                    developed.
+                    Drive targeted traffic and increase conversions with
+                    strategic pay-per-click advertising on Google, optimized for
+                    your business goals. Create effective ad campaigns on
+                    platforms like Facebook, Instagram, and LinkedIn to boost
+                    engagement and reach your ideal audience.
                   </p>
                 </div>
               </div>
@@ -129,7 +128,7 @@ const DigitalMarketingPage = () => {
             <p className="mb-5">
               Introduce the digital marketing service company and its mission to
               help businesses grow and thrive in the digital landscape.
-              Highlight the company's experience, expertise, and dedication to
+              Highlight the company`s experience, expertise, and dedication to
               providing top-notch digital marketing solutions.
             </p>
             <h2 className="font-bold mb-5 text-xl lg:text-2xl">
@@ -152,7 +151,7 @@ const DigitalMarketingPage = () => {
 
             <p className="mb-5">
               The company offers a range of digital marketing services tailored
-              to clients' needs. These include search engine optimization (SEO)
+              to clients` needs. These include search engine optimization (SEO)
               to boost online visibility and drive organic traffic, and
               pay-per-click (PPC) advertising campaigns that deliver targeted
               results. Content marketing strategies engage and convert audiences
@@ -171,9 +170,9 @@ const DigitalMarketingPage = () => {
               The company boasts an expert team of experienced web developers,
               designers, and digital strategists working together to deliver
               exceptional results. Its client-centric approach focuses on
-              understanding clients' goals and working closely with them to
+              understanding client`s goals and working closely with them to
               achieve their vision. A proven track record of successful projects
-              and satisfied clients demonstrates the company's expertise and
+              and satisfied clients demonstrates the company`s expertise and
               reliability. The company provides ongoing support and maintenance
               to ensure websites continue to perform optimally.
             </p>
@@ -181,10 +180,10 @@ const DigitalMarketingPage = () => {
             <h2 className="font-bold mb-5 text-xl lg:text-2xl">Benefits</h2>
 
             <p className="mb-5">
-              The company's custom strategies are designed to align with each
-              client's unique goals and objectives. Its multi-channel approach
+              The company`s custom strategies are designed to align with each
+              client`s unique goals and objectives. Its multi-channel approach
               ensures a comprehensive digital presence across various platforms.
-              Proven results and success stories demonstrate the company's
+              Proven results and success stories demonstrate the company`s
               ability to deliver tangible outcomes for clients. The company
               offers ongoing support and optimization to continuously improve
               marketing efforts and achieve sustained success.
@@ -196,7 +195,7 @@ const DigitalMarketingPage = () => {
 
             <p className="mb-5">
               Share testimonials from satisfied clients or case studies of
-              successful campaigns to showcase the company's impact on clients'
+              successful campaigns to showcase the company`s impact on clients``
               businesses.
             </p>
           </div>

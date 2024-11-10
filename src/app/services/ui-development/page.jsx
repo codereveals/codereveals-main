@@ -10,6 +10,7 @@ const UiDevelopmentPage = () => {
       <div className="container">
         <HeroBreadcrumb
           title="UI/UX Development"
+          subTitle="Creative Mind "
           desc="(UX) design for businesses. Describe how a well-designed UI and UX
             can improve customer satisfaction and drive conversions."
         />
@@ -40,11 +41,11 @@ const UiDevelopmentPage = () => {
                     Landing Page
                   </h2>
                   <p className="text-sm text-white">
-                    Mockup design is the process of creating visual
-                    representations or prototypes of a digital product, such as
-                    a website, mobile app, or software interface, to illustrate
-                    its appearance, layout, and functionality before it is
-                    developed.
+                    Creating visually appealing, high-converting landing pages
+                    tailored to your brand, designed to capture leads or drive
+                    specific actions. Ensuring that your landing page is fully
+                    responsive, providing a seamless experience on both desktop
+                    and mobile devices.
                   </p>
                 </div>
               </div>
@@ -63,11 +64,11 @@ const UiDevelopmentPage = () => {
                     Logo Design
                   </h2>
                   <p className="text-sm text-white">
-                    Mockup design is the process of creating visual
-                    representations or prototypes of a digital product, such as
-                    a website, mobile app, or software interface, to illustrate
-                    its appearance, layout, and functionality before it is
-                    developed.
+                    Crafting unique and memorable logos that reflect your
+                    brand`s identity, values, and vision, setting you apart in
+                    your industry. Designing logos that align with your overall
+                    brand strategy, ensuring consistency across all marketing
+                    materials and platforms.
                   </p>
                 </div>
               </div>
@@ -83,14 +84,15 @@ const UiDevelopmentPage = () => {
                 </div>
                 <div className="w-full lg:w-[60%]">
                   <h2 className="text-2xl text-white mb-4 font-bold">
-                    Social Media Design
+                    Social Media Post
                   </h2>
                   <p className="text-sm text-white">
-                    Mockup design is the process of creating visual
-                    representations or prototypes of a digital product, such as
-                    a website, mobile app, or software interface, to illustrate
-                    its appearance, layout, and functionality before it is
-                    developed.
+                    Creating eye-catching and engaging social media post designs
+                    that align with your brand`s identity, capture attention,
+                    and encourage user interaction. Each design is tailored to
+                    the platform`s requirements, using bold visuals, thoughtful
+                    typography, and effective use of color to convey your
+                    message clearly and creatively.
                   </p>
                 </div>
               </div>
@@ -106,14 +108,14 @@ const UiDevelopmentPage = () => {
                 </div>
                 <div className="w-full lg:w-[60%]">
                   <h2 className="text-2xl text-white mb-4 font-bold">
-                    Print Meida Design
+                    Banner Design
                   </h2>
                   <p className="text-sm text-white">
-                    Mockup design is the process of creating visual
-                    representations or prototypes of a digital product, such as
-                    a website, mobile app, or software interface, to illustrate
-                    its appearance, layout, and functionality before it is
-                    developed.
+                    Designing striking banners that effectively communicate your
+                    message, attract attention, and align with your brand`s
+                    identity. Whether for digital or print, each banner is
+                    crafted with the right blend of visuals, typography, and
+                    color schemes to ensure it stands out.
                   </p>
                 </div>
               </div>

@@ -39,11 +39,11 @@ const WebDevelopmentPage = () => {
                     Custom Web Development
                   </h2>
                   <p className="text-sm text-white">
-                    Mockup design is the process of creating visual
-                    representations or prototypes of a digital product, such as
-                    a website, mobile app, or software interface, to illustrate
-                    its appearance, layout, and functionality before it is
-                    developed.
+                    Offering custom web development services tailored to your
+                    unique business needs, creating scalable, secure, and
+                    high-performing websites. From responsive designs to complex
+                    back-end systems, we build websites that are intuitive,
+                    user-friendly, and optimized for SEO.
                   </p>
                 </div>
               </div>
@@ -62,11 +62,12 @@ const WebDevelopmentPage = () => {
                     Wordpress Development
                   </h2>
                   <p className="text-sm text-white">
-                    Mockup design is the process of creating visual
-                    representations or prototypes of a digital product, such as
-                    a website, mobile app, or software interface, to illustrate
-                    its appearance, layout, and functionality before it is
-                    developed.
+                    Specializing in custom WordPress development to create
+                    user-friendly, scalable websites that are fully tailored to
+                    your brand and business needs. From custom themes and
+                    plugins to e-commerce integration and performance
+                    optimization, we ensure your WordPress site is secure, fast,
+                    and SEO-friendly.
                   </p>
                 </div>
               </div>
@@ -85,11 +86,12 @@ const WebDevelopmentPage = () => {
                     CMS Development
                   </h2>
                   <p className="text-sm text-white">
-                    Mockup design is the process of creating visual
-                    representations or prototypes of a digital product, such as
-                    a website, mobile app, or software interface, to illustrate
-                    its appearance, layout, and functionality before it is
-                    developed.
+                    Offering CMS (Content Management System) development to
+                    create flexible, user-friendly platforms that allow you to
+                    easily manage and update your website content without
+                    needing technical expertise. Whether it’s WordPress, Joomla,
+                    Drupal, or a custom solution, we provide tailored CMS
+                    development that suits your specific requirements.
                   </p>
                 </div>
               </div>
@@ -108,11 +110,11 @@ const WebDevelopmentPage = () => {
                     React Development
                   </h2>
                   <p className="text-sm text-white">
-                    Mockup design is the process of creating visual
-                    representations or prototypes of a digital product, such as
-                    a website, mobile app, or software interface, to illustrate
-                    its appearance, layout, and functionality before it is
-                    developed.
+                    Specializing in React development to create fast, dynamic,
+                    and interactive user interfaces for web applications. By
+                    leveraging React’s component-based architecture, we build
+                    scalable, maintainable, and high-performance apps that
+                    deliver seamless user experiences.
                   </p>
                 </div>
               </div>
@@ -127,7 +129,7 @@ const WebDevelopmentPage = () => {
             </h2>
             <p className="mb-5">
               Introduce the website development company and its mission.
-              Highlight the company's experience, reputation, and commitment to
+              Highlight the company`s experience, reputation, and commitment to
               delivering top-quality web development services.
             </p>
             <h2 className="font-bold mb-5 text-xl lg:text-2xl">
@@ -152,12 +154,12 @@ const WebDevelopmentPage = () => {
 
             <p className="mb-5">
               Custom website development offers tailored web development
-              solutions that cater to clients' unique needs and brand
+              solutions that cater to clients` unique needs and brand
               identities. Responsive design creates websites that function
               seamlessly on all devices and screen sizes. E-commerce development
               builds secure, user-friendly, and optimized online stores. Content
               management systems (CMS) expertise includes platforms such as
-              WordPress, Joomla, and Drupal, with customization for clients'
+              WordPress, Joomla, and Drupal, with customization for clients`
               needs. Web application development creates advanced web
               applications for businesses with custom features and
               functionalities.
@@ -171,9 +173,9 @@ const WebDevelopmentPage = () => {
               The company boasts an expert team of experienced web developers,
               designers, and digital strategists working together to deliver
               exceptional results. Its client-centric approach focuses on
-              understanding clients' goals and working closely with them to
+              understanding clients` goals and working closely with them to
               achieve their vision. A proven track record of successful projects
-              and satisfied clients demonstrates the company's expertise and
+              and satisfied clients demonstrates the company`s expertise and
               reliability. The company provides ongoing support and maintenance
               to ensure websites continue to perform optimally.
             </p>
@@ -196,7 +198,7 @@ const WebDevelopmentPage = () => {
 
             <p className="mb-5">
               Share testimonials from satisfied clients or case studies of
-              successful projects to showcase the company's impact on clients'
+              successful projects to showcase the company`s impact on clients`
               businesses. Include a call to action inviting readers to contact
               the company for a consultation or more information about its
               services.

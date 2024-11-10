@@ -9,7 +9,7 @@ const VideoEditingPage = () => {
       <div className="container">
         <HeroBreadcrumb
           title="Video Editing"
-          desc="Introduce the digital marketing service company and its mission to help businesses grow and thrive in the digital landscape. Highlight the company's experience, expertise, and dedication to providing top-notch digital marketing solutions."
+          desc="Creating polished and engaging videos through professional editing techniques, including trimming, color correction, audio enhancement, and seamless transitions. Whether it's for promotional content, social media, or personal projects, the focus is on delivering high-quality visuals and sound that captivate the audience. Custom edits such as adding motion graphics, special effects, and animations can be incorporated to make your video stand out and convey your message effectively."
         />
 
         <div className="w-full my-10">
@@ -38,11 +38,13 @@ const VideoEditingPage = () => {
                     Youtube Video Editing
                   </h2>
                   <p className="text-sm text-white">
-                    Mockup design is the process of creating visual
-                    representations or prototypes of a digital product, such as
-                    a website, mobile app, or software interface, to illustrate
-                    its appearance, layout, and functionality before it is
-                    developed.
+                    Specializing in YouTube video editing to create
+                    high-quality, engaging content that enhances your channel`s
+                    performance. This includes trimming, adding transitions,
+                    improving audio, and adjusting the color for a professional
+                    look. Custom thumbnails, titles, and intros are also
+                    designed to increase click-through rates and improve viewer
+                    retention.
                   </p>
                 </div>
               </div>
@@ -61,11 +63,13 @@ const VideoEditingPage = () => {
                     Social Media Video
                   </h2>
                   <p className="text-sm text-white">
-                    Mockup design is the process of creating visual
-                    representations or prototypes of a digital product, such as
-                    a website, mobile app, or software interface, to illustrate
-                    its appearance, layout, and functionality before it is
-                    developed.
+                    Creating dynamic and engaging social media videos that are
+                    optimized for platforms like Instagram, TikTok, Facebook,
+                    and YouTube Shorts. The focus is on fast-paced editing,
+                    incorporating eye-catching visuals, trendy effects, and
+                    captivating captions to capture attention quickly. Videos
+                    are formatted and tailored for each platform`s specific
+                    requirements, ensuring they stand out in users`` feeds.
                   </p>
                 </div>
               </div>

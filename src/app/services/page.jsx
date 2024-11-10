@@ -10,7 +10,7 @@ const ServicesPage = () => {
       <div className="container">
         <HeroBreadcrumb
           title="Services"
-          desc="Introduce the digital marketing service company and its mission to help businesses grow and thrive in the digital landscape. Highlight the company's experience, expertise, and dedication to providing top-notch digital marketing solutions."
+          desc="Tailored software solutions to streamline your business operations, enhance productivity, and meet your unique needs."
         />
 
         <div className="w-full my-10 ">
@@ -65,7 +65,8 @@ const ServicesPage = () => {
                   Web Development
                 </h2>
                 <p className="text-sm text-white mb-4">
-                  Enhance the User Interface and Elevate the Product Experience.
+                  Creating custom, responsive websites that offer an engaging
+                  user experience, optimized for performance and SEO.
                 </p>
                 <Button
                   title="Go To Page"
@@ -91,7 +92,8 @@ const ServicesPage = () => {
                   Digital Marketing
                 </h2>
                 <p className="text-sm text-white mb-4">
-                  Enhance the User Interface and Elevate the Product Experience.
+                  Boost your online visibility and drive organic traffic with
+                  targeted SEO strategies and high-quality content.
                 </p>
                 <Button
                   title="Go To Page"
@@ -117,7 +119,8 @@ const ServicesPage = () => {
                   Video Editing
                 </h2>
                 <p className="text-sm text-white mb-4">
-                  Enhance the User Interface and Elevate the Product Experience.
+                  Transform raw footage into captivating videos with seamless
+                  transitions, color correction, and audio enhancements.
                 </p>
                 <Button
                   title="Go To Page"
@@ -143,7 +146,9 @@ const ServicesPage = () => {
                   Mobile App Development
                 </h2>
                 <p className="text-sm text-white mb-4">
-                  Enhance the User Interface and Elevate the Product Experience.
+                  Building high-quality, feature-rich mobile apps for iOS and
+                  Android, tailored to meet your business needs and user
+                  preferences.
                 </p>
                 <Button
                   title="Go To Page"

@@ -9,8 +9,9 @@ const MobileAppPage = () => {
     <>
       <div className="container">
         <HeroBreadcrumb
+          subTitle="Why us for Mobile?"
           title="Mobile App Development"
-          desc="Introduce the digital marketing service company and its mission to help businesses grow and thrive in the digital landscape. Highlight the company's experience, expertise, and dedication to providing top-notch digital marketing solutions."
+          desc="Creating tailored mobile apps for iOS and Android, built with robust features and user-centric design to enhance your business presence."
         />
 
         <div className="w-full my-10">
@@ -39,11 +40,11 @@ const MobileAppPage = () => {
                     React Native Development
                   </h2>
                   <p className="text-sm text-white">
-                    Mockup design is the process of creating visual
-                    representations or prototypes of a digital product, such as
-                    a website, mobile app, or software interface, to illustrate
-                    its appearance, layout, and functionality before it is
-                    developed.
+                    uilding high-performance, native-like mobile applications
+                    for both iOS and Android using React Native, ensuring a
+                    consistent experience across devices. Creating intuitive,
+                    visually appealing user interfaces and seamless user
+                    experiences tailored to your brand and target audience.
                   </p>
                 </div>
               </div>
@@ -62,11 +63,12 @@ const MobileAppPage = () => {
                     Flutter Development
                   </h2>
                   <p className="text-sm text-white">
-                    Mockup design is the process of creating visual
-                    representations or prototypes of a digital product, such as
-                    a website, mobile app, or software interface, to illustrate
-                    its appearance, layout, and functionality before it is
-                    developed.
+                    Building fast, natively compiled applications for iOS,
+                    Android, and the web using Flutter, ensuring a seamless user
+                    experience across platforms. Crafting beautiful, highly
+                    responsive user interfaces that provide a smooth and
+                    engaging experience, leveraging Flutter’s powerful design
+                    capabilities.
                   </p>
                 </div>
               </div>
@@ -82,7 +84,7 @@ const MobileAppPage = () => {
             <p className="mb-5">
               Introduce the mobile development service company and its mission
               to help businesses excel in the mobile landscape. Highlight the
-              company's experience, expertise, and dedication to providing
+              company`s experience, expertise, and dedication to providing
               top-notch mobile app solutions.
             </p>
             <h2 className="font-bold mb-5 text-xl lg:text-2xl">
@@ -107,7 +109,7 @@ const MobileAppPage = () => {
 
             <p className="mb-5">
               The company offers a wide range of mobile development services
-              tailored to clients' needs. Native app development creates apps
+              tailored to clients` needs. Native app development creates apps
               specifically for a particular operating system, such as Android or
               iOS, delivering optimal performance and user experience.
               Cross-platform app development uses frameworks like React Native
@@ -147,7 +149,7 @@ const MobileAppPage = () => {
 
             <p className="mb-5">
               Share testimonials from satisfied clients or case studies of
-              successful campaigns to showcase the company's impact on clients'
+              successful campaigns to showcase the company`s impact on clients`
               businesses.
             </p>
           </div>
