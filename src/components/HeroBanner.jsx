@@ -48,6 +48,21 @@ const HeroBanner = () => {
                 alt="img"
                 className="rounded-md w-full"
               />
+
+              {/* <video className="w-full h-auto" controls>
+                <source
+                  src="public/assets/images/render_codereveals.mp4"
+                  type="video/mp4"
+                />
+                <track
+                  src="public/assets/images/render_codereveals.mp4"
+                  kind="subtitles"
+                  srcLang="en"
+                  label="English"
+                />
+                Your browser does not support the video tag.
+              </video> */}
+
               <div className="bg-slate-800 rounded-md p-8 mt-3">
                 <h2 className="text-xl lg:text-4xl">
                   <span className="text-[--secondaryColor] font-bold">
